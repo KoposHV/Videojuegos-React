@@ -13,7 +13,7 @@
     margin-left: 350px;
     width: 45vh;
     height: 46vh;
-    border: 2px red solid;
+    
     
     
     
@@ -22,7 +22,8 @@
   .board-row {
     display: flex;
     font-size: 200px;
-    border: 2px yellow solid;
+    
+    
     
     }
   
@@ -33,12 +34,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 90px;
     margin: 1px;
     cursor: pointer;
     width: 70vh;
     height: 15vh;
-    border: 2px green solid;
+    border: 2px orange solid;
    
     
     
