@@ -1,0 +1,12 @@
+.fondo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    margin-top: 80px;
+    
+   
+   
+    width: 100%;
+    
+}
