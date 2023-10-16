@@ -10,9 +10,11 @@
     flex-direction: column;
     margin: 20px;
     margin-top: 150px;
-    margin-left: 505px;
-    width: 50vh;
-    height: 50%;
+    margin-left: 350px;
+    width: 45vh;
+    height: 46vh;
+    border: 2px red solid;
+    
     
     
   }
@@ -20,6 +22,7 @@
   .board-row {
     display: flex;
     font-size: 200px;
+    border: 2px yellow solid;
     
     }
   
@@ -35,6 +38,7 @@
     cursor: pointer;
     width: 70vh;
     height: 15vh;
+    border: 2px green solid;
    
     
     
@@ -50,13 +54,10 @@
     margin-right: 50px;
     font-size: 17px;
     margin-top: 350px;
-    margin-left: 140px;
+    margin-left: 120px;
     border-radius: 40%;
     
-    border: 1px orange solid;
-  }
-  main {
-    min-height: calc(100vh - 80px - 40px);
     
+    border: 1px orange solid;
   }
   
