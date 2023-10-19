@@ -1,37 +1,36 @@
-.App {
-    text-align: center;
-    font-family: Arial, sans-serif;
-    height: 115vh;
-    padding-top: 100px;
-  }
-  
-  .card-container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  .card {
-    width: 95px;
-    height: 120px;
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    cursor: pointer;
-    background-color: #f2f2f2;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-  
-  .card.flipped {
-    background-color: #61dafb;
-    color: #fff;
-  }
-  
-  .card.flipped:active {
-    background-color: #2185d0;
-  }
-  
+.memory-game {
+  display: grid;
+  grid-template-columns: repeat(8, 80px);
+  grid-template-rows: repeat(4, 80px);
+  gap: 10px;
+  margin: 20px;
+  border: 2px red solid;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+  height: 80px;
+  width: 70px;
+  background-color: white;
+  color: red;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.card.flipped {
+  background-color: orange;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #ecf0f1;
+}
