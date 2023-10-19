@@ -16,7 +16,7 @@
   height: 90px;
   width: 70px;
   background-color: white;
-  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5Xl1zJoAsroQrHm6hPc3VdJnbAJKA3Iy9SbFb1pZeaZTs3VsJh3sKMo1iqaR7B3FNuL4&usqp=CAU) ;
+  
   color: red;
   cursor: pointer;
   border-radius: 5px;
@@ -31,7 +31,7 @@
 }
 
 .card.flipped {
-  background-color: orange;
+  background-color:orange
 }
 
 body {
